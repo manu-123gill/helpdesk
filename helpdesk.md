@@ -13,25 +13,25 @@ staff can create tickets for technical support.
 
 # Communication
 
-### Messaging system within the app for communication between students, and  staff and Ability to attach relevant documents or screenshots.
+Messaging system within the app for communication between students, and  staff and Ability to attach relevant documents or screenshots.
     
 # Notifications
 
-### Automated notifications for ticket updates, resolution, or important announcements.
+Automated notifications for ticket updates, resolution, or important announcements.
     
 # Reporting
 
-  ###  Analytics on common issues, response times, and ticket resolution for continuous improvement.
-###  Reports for administrative purposes, such as tracking support staff workload.
+  Analytics on common issues, response times, and ticket resolution for continuous improvement.
+ Reports for administrative purposes, such as tracking support staff workload.
 
 # Academic Calendar Integration
 
-### Integration with the college's academic calendar for timely updates and notifications.
-### Automatic reminders for important academic deadlines.
+Integration with the college's academic calendar for timely updates and notifications.
+Automatic reminders for important academic deadlines.
 #   Mobile Accessibility
 
-  ### It is mobile app web version for accessibility .
+ It is mobile app web version for accessibility .
 
    # Feedback System
 
-   ### Students  can provide feedback on the resolution process and used for continuous improvement.
+   Students  can provide feedback on the resolution process and used for continuous improvement.
