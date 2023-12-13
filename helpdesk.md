@@ -3,7 +3,7 @@
 helpdesk is a software application. It provide a platform for communication between staff and students. All interactions, such as emails, chat, message and phone calls can be tracked and managed within the app. It provides collaboration tools among support techer allow them to share information, discuss issues and work together to resolve complex problems. In this app you can share any type of data like Image and any type of file. It provides automation features. Its response automates common queries.
 
 ## Important
- In this app ticket is a meassage that is created by students.
+ In this app ticket is a meassage that is creating by students.
 ## Example
 
 # Ticket Creation
