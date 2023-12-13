@@ -8,8 +8,8 @@ helpdesk is a software application. It provide a platform for communication betw
 
 # Ticket Creation
 
-### Students can create tickets for issues  e.g  registration, course information, any other issue 
-### staff can create tickets for technical support.
+Students can create tickets for issues  e.g  registration, course information, any other issue 
+staff can create tickets for technical support.
 
 # Communication
 
