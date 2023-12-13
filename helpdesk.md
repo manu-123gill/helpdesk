@@ -4,23 +4,23 @@ helpdesk is a software application. It provide a platform for communication betw
 
 ## Example
 
-# Ticket Creation:
+## Ticket Creation
 
-    Students can create tickets for issues for e.g  registration, course information, any other issue
-    staff can create tickets for administrative or technical support.
+   # Students can create tickets for issues for e.g  registration, course information, any other issue 
+# staff can create tickets for technical support.
+
 ## Communication:
 
-    Messaging system within the app for communication between students, and support staff.
-    Ability to attach relevant documents or screenshots.
+# Messaging system within the app for communication between students, and  staff and Ability to attach relevant documents or screenshots.
     
 ## Notifications:
 
-    Automated notifications for ticket updates, resolution, or important announcements.
+# Automated notifications for ticket updates, resolution, or important announcements.
     
   ## Reporting:
 
-    Analytics on common issues, response times, and ticket resolution for continuous improvement.
-    Reports for administrative purposes, such as tracking support staff workload.
+  #  Analytics on common issues, response times, and ticket resolution for continuous improvement.
+   # Reports for administrative purposes, such as tracking support staff workload.
 
   ## Academic Calendar Integration:
 
@@ -28,9 +28,8 @@ helpdesk is a software application. It provide a platform for communication betw
     Automatic reminders for important academic deadlines.
 ##    Mobile Accessibility:
 
-    Mobile app or mobile-friendly web version for accessibility on smartphones and tablets
+  #  It is mobile app web version for accessibility .
 
    ## Feedback System:
 
-    Students and faculty can provide feedback on the resolution process.
-    Feedback used for continuous improvement of support services.
+    Students  can provide feedback on the resolution process and used for continuous improvement.
