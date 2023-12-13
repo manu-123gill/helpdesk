@@ -6,7 +6,7 @@ helpdesk is a software application. It provide a platform for communication betw
  In this app ticket is a meassage that is creating by students and staff.
 ## Example
 
-# Ticket Creation
+## Ticket Creation
 
 Students can create tickets for issues  e.g  registration, course information, any other issue 
 staff can create tickets for technical support.
