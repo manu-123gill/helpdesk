@@ -880,3 +880,10 @@ class HDNotification(Document):
 		refetch_resource("Notifications")
 
 ```
+## HD Pause Service Level Agreement On Status
+
+![image](Status.png)
+
+## HD Service Level Agreement Fulfilled On Status
+
+![image](Fulfiledstatus.png)
