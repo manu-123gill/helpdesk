@@ -1014,8 +1014,7 @@ def get_list_public():
 ## HD Ticket Feedback
 ![image](HDticketfeedback.png)
 ```sh
-# Copyright (c) 2023, Frappe Technologies and contributors
-# For license information, please see license.txt
+
 
 import frappe
 from frappe import _
@@ -1033,8 +1032,108 @@ class HDTicketFeedbackOption(Document):
 		if self.rating not in self.allowed_ratings:
 			frappe.throw(_("Rating {0} is not allowed").format(self.rating))
 
+
 	def validate_bounds(self):
 		if not (0.2 <= self.rating <= 1.0):
 			frappe.throw(_("Rating must be between 0.2 and 1.0"))
 
 ```
+## HD Customer
+![image](HDcustomer.png)
+
+## HD Agent
+![image](HDagent.png)
+```sh
+import frappe
+from frappe import _
+
+from helpdesk.utils import is_agent
+
+
+@frappe.whitelist(allow_guest=True)
+def get_article(name: str):
+	article = frappe.get_doc("HD Article", name).as_dict()
+
+	if not is_agent() and article["status"] != "Published":
+		frappe.throw(_("Access denied"), frappe.PermissionError)
+
+	author = frappe.get_cached_doc("User", article["author"])
+	sub_category = frappe.get_cached_doc("HD Article Category", article["category"])
+	category = frappe.get_cached_doc(
+		"HD Article Category", sub_category.parent_category
+	)
+
+	return {
+		**article,
+		"author": author,
+		"category": category,
+		"sub_category": sub_category,
+	}
+
+```
+## HD Ticket Type
+![image](HDtickettype.png)
+
+## HD Escalation Rule
+![image](escalationrule.png)
+```sh
+# Copyright (c) 2023, Frappe Technologies and contributors
+# For license information, please see license.txt
+
+import frappe
+from frappe import _
+from frappe.model.document import Document
+
+from helpdesk.utils import capture_event, publish_event
+
+
+class HDEscalationRule(Document):
+	def validate(self):
+		self.validate_criterion()
+		self.validate_duplicate()
+
+	def after_insert(self):
+		self.emit_after_insert()
+
+	def on_update(self):
+		self.emit_on_update()
+
+	def after_delete(self):
+		self.emit_after_delete()
+
+	def validate_criterion(self):
+		if not (self.priority or self.team or self.ticket_type):
+			frappe.throw(
+				_("At-least one of priority, team and ticket type is required")
+			)
+
+	def validate_duplicate(self):
+		is_duplicate = frappe.db.count(
+			"HD Escalation Rule",
+			filters={
+				"name": ["!=", self.name],
+				"priority": self.priority or "",
+				"team": self.team or "",
+				"ticket_type": self.ticket_type or "",
+			},
+		)
+
+		if is_duplicate:
+			frappe.throw(_("Escalation rule already exists for this criteria"))
+
+	def emit_after_insert(self):
+		capture_event("escalation_rule_created")
+		publish_event("helpdesk:new-escalation-rule", self)
+
+	def emit_on_update(self):
+		capture_event("escalation_rule_updated")
+		publish_event("helpdesk:update-escalation-rule", self)
+
+	def emit_after_delete(self):
+		capture_event("escalation_rule_deleted")
+		publish_event("helpdesk:delete-escalation-rule", self)
+```
+### HD Ticket Priority
+
+
+![image](Hdticketpriority.png)
