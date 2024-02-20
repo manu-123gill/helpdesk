@@ -900,9 +900,6 @@ HD Ticket Priority
 Assignment Rules
 ```
 ```sh
-# -*- coding: utf-8 -*-
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and contributors
-# For license information, please see license.txt
 
 from __future__ import unicode_literals
 from frappe.model.naming import append_number_if_name_exists
