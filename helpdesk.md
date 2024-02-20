@@ -781,8 +781,7 @@ def permission_query(user):
 
  ### HD TicketCommant.py
  ```sh
-# Copyright (c) 2022, Frappe Technologies and contributors
-# For license information, please see license.txt
+
 
 from frappe.model.document import Document
 
@@ -813,3 +812,5 @@ class HDTicketComment(HasMentions, Document):
 		capture_event(telemetry_event)
 
 ```
+## HD Notification
+![image](Hdnotification.png)
