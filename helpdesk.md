@@ -1,37 +1,58 @@
-### Introduction of helpdesk app
+### helpdesk app
+##  Why I Create Helpdesk app
 
 helpdesk is a software application. It provide a platform for communication between staff and students. All interactions, such as emails, chat, message and phone calls can be tracked and managed within the app. It provides collaboration tools among support techer allow them to share information, discuss issues and work together to resolve complex problems. In this app you can share any type of data like Image and any type of file. It provides automation features. Its response automates common queries.
 
-## Important
- In this app ticket is a meassage that is creating by students and staff.
-## Example
+## Why I use Frappe
+I create helpdesk app in frappe.Because frappe frame work is easy to use.In frappe avaliable many tools liks as form builder and others .
 
-## Ticket Creation
+## Requirement 
+1.Easy create a Issue.
+2.Give feedback by the customer
+3.Create Agent group
+4.Knowledge Base
+5.Canned Response Message
+6.Escalation Rules
+7.Deshboard
 
-Students can create tickets for issues  e.g  registration, course information, any other issue 
-staff can create tickets for technical support.
+## Doc Types
+HD Ticket 
+HD Ticket Comment
+HD Notification 
+HD pause Service Level Agreement On Status
+HD Service Level Agreement Fulfilled On Satus
+HD Service Level Agreement 
+HD Action
+HD Settings
+HD Article
+HD Article Category
+HD Ticket Feedback
+HD Ticket Template Field
+HD Ticket Tempate
+HD Customer
+HD Agent 
+HD Ticket Type
+HD Escalation Rules
+HD Ticket Priority
+HD Team Iteam
+HD Ticket Activity
+HD Article Sub Category Item 
+HD Present Filter
+HD Organization
+HD Service Holiday List
+HD Aritle Item
+HD Article Feedback
+HD Team
+HD Service Level Priority
+HD Canned Response
+HD Team Member
+HD Present Filter Item
+HD Desk Account Request
+HD Portal Signup Request 
+HD Organization Cantact
+HD Holiday 
+HD Support Search Sorce 
+HD Service Day
 
-# Communication
 
-Messaging system within the app for communication between students, and  staff and Ability to attach relevant documents or screenshots.
-    
-# Notifications
 
-Automated notifications for ticket updates, resolution, or important announcements.
-    
-# Reporting
-
-  Analytics on common issues, response times, and ticket resolution for continuous improvement.
- Reports for administrative purposes, such as tracking support staff workload.
-
-# Academic Calendar Integration
-
-Integration with the college's academic calendar for timely updates and notifications.
-Automatic reminders for important academic deadlines.
-#   Mobile Accessibility
-
- It is mobile app web version for accessibility .
-
-   # Feedback System
-
-   Students  can provide feedback on the resolution process and used for continuous improvement.
