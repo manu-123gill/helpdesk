@@ -953,3 +953,5 @@ class HDSettings(Document):
 
 		frappe.publish_realtime(event, room=room, after_commit=True)
 ```
+## HD Article
+![image](HDArticle.png)
