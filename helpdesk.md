@@ -7,6 +7,7 @@ helpdesk is a software application. It provide a platform for communication betw
 I create helpdesk app in frappe.Because frappe frame work is easy to use.In frappe avaliable many tools liks as form builder and others .
 
 ## Requirement 
+```sh
 1.Easy create a Issue.
 2.Give feedback by the customer
 3.Create Agent group
@@ -14,8 +15,9 @@ I create helpdesk app in frappe.Because frappe frame work is easy to use.In frap
 5.Canned Response Message
 6.Escalation Rules
 7.Deshboard
-
+```
 ## Doc Types
+```sh
 HD Ticket 
 HD Ticket Comment
 HD Notification 
@@ -54,5 +56,5 @@ HD Holiday
 HD Support Search Sorce 
 HD Service Day
 
-
+```
 
