@@ -50,10 +50,8 @@ HD Canned Response
 HD Team Member
 HD Present Filter Item
 HD Desk Account Request
-HD Portal Signup Request 
 HD Organization Cantact
 HD Holiday 
-HD Support Search Sorce 
 HD Service Day
 
 ```
