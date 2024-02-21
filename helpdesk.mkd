@@ -1,7 +1,7 @@
 ### helpdesk app
 ##  Why I Create Helpdesk app
 
-helpdesk is a software application. It provide a platform for communication between staff and students. All interactions, such as emails, chat, message and phone calls can be tracked and managed within the app. It provides collaboration tools among support techer allow them to share information, discuss issues and work together to resolve complex problems. In this app you can share any type of data like Image and any type of file. It provides automation features. Its response automates common queries.
+helpdesk is a software application. It provide a platform for communication between staff and students. All interactions, such as emails, chat, message  within the app. It provides collaboration tools among support techer allow them to share information, discuss issues and work together to resolve complex problems. In this app you can share any type of data like Image and any type of file. It provides automation features. Its response automates common queries.
 
 ## Why I use Frappe
 I create helpdesk app in frappe.Because frappe frame work is easy to use.In frappe avaliable many tools liks as form builder and others .
