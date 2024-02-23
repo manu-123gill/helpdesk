@@ -9,12 +9,12 @@ I create helpdesk app in frappe.Because frappe frame work is easy to use.In frap
 ## Requirement 
 ```sh
 1.Easy create a Issue.
-2.Give feedback by the customer
-3.Create Agent group
+2.Give feedback by the Student.
+3.Create Teacher group
 4.Knowledge Base
 5.Canned Response Message
 6.Escalation Rules
-7.Deshboard
+7.Dashboard
 ```
 ## Doc Types
 ```sh
