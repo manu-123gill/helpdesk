@@ -7,15 +7,19 @@ helpdesk is a software application. It provide a platform for communication betw
 I create helpdesk app in frappe.Because frappe frame work is easy to use.In frappe avaliable many tools liks as form builder and others .
 
 ## Requirement 
-```sh
+
 1.Users, likely students or teachers, should have a simple  way to create issues or report problems they encounter within the system.
+
 2.Feedback : After resolving an issue, students should have the capability to provide feedback regarding their experience, enabling them to share their thoughts, suggestions, or overall satisfaction with the resolution process.
+
 3.Teacher Groups : users have the capability to create and manage teacher groups, facilitating collaboration, resource sharing, and effective communication among educators.
+
 4.Knowledge Base : The Knowledge Base feature allows both customers and teachers to access valuable information and resources. While customers can view the knowledge base to find answers to their queries, teachers have the additional privilege of creating and contributing to it, ensuring that relevant and up-to-date content is readily available to all users.
+
 5.Canned Response : In the canned response feature, teachers have the ability to send pre-written messages containing important information that is frequently communicated. Teachers can save commonly used messages, ensuring efficiency and consistency in their communication by quickly accessing and sending relevant information to recipients.
 
 6.Dashboard : The system should feature a dashboard that provides users with an overview of relevant information, statistics, and activities.
-```
+
 ## Doc Types
 ```sh
 HD Ticket 
