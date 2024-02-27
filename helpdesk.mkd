@@ -18,7 +18,7 @@ I create helpdesk app in frappe.Because frappe frame work is easy to use.In frap
 
 5.Canned Response : In the canned response feature, teachers have the ability to send pre-written messages containing important information that is frequently communicated. Teachers can save commonly used messages, ensuring efficiency and consistency in their communication by quickly accessing and sending relevant information to recipients.
 
-6.Dashboard : The system should feature a dashboard that provides users with an overview of relevant information, statistics, and activities.
+6.Dashboard : The system should feature a dashboard that provides users with an overview of relevant information and activities.
 
 ## Doc Types
 ```sh
