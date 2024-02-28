@@ -1,4 +1,4 @@
-### helpdesk app
+### Helpdesk app
 ##  Why I Create Helpdesk app
 
 helpdesk is a software application. It provide a platform for communication between staff and students. All interactions, such as emails, chat, message  within the app. It provides collaboration tools among support techer allow them to share information, discuss issues and work together to resolve complex problems. In this app you can share any type of data like Image and any type of file. It provides automation features. Its response automates common queries.
